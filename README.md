@@ -89,7 +89,7 @@ The result is:
 
 > Weather: broken clouds. Current temperature is 6C. Minimum temperature were 6C. Maximum 
 temperature were 6C. Humidity is 70%. Visibility is 10000 feet. Wind speed is 3.6m/s and the 
-wind direction is 140 degree.
+wind direction is 140 degree (as of time).
 
 Obviously, there is a room for imrpovement. For example, we can create another class named City.
 Then we can initialize it with city id number and get specific data for the city and etc.

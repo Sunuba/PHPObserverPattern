@@ -4,7 +4,9 @@ use Obs\WeatherData;
 use Obs\Weather;
 
 $weatherData = new WeatherData();
+
 $weatherClient = new Weather($weatherData);
+
 $weatherClient->registerObserver ($weatherClient);
 
 $wd = file_get_contents ('https://openweathermap.org/data/2.5/weather/?appid=b6907d289e10d714a6e88b30761fae22&id=587084&units=metric');
